@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -5,7 +6,11 @@ export default function Home() {
    <div>
      <h2> my name is amit this is the best way the learn to class to problem</h2>
 
+   <Button  variant="destructive">Subscribe</Button>
+
      
    </div>
   );
 }
+
+
