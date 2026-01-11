@@ -5,9 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next line",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.36.7",
     "@neondatabase/serverless": "^1.0.2",
     "@radix-ui/react-slot": "^1.2.4",
     "class-variance-authority": "^0.7.1",
