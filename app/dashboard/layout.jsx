@@ -5,12 +5,15 @@ import SideNav from './_components/SideNav'
 const DashboardLayout = ({ children }) => {
   return (
     <div>
-        <div className='hidden  md:block '>
+        <div className='hidden  md:block h-screen bg-white fixed  mt-[65px] w-64'>
             <SideNav/>
         </div>
     <div>
         <Header/>
-    { children }
+        <div className='md:ml-64  h-screen shadow-emerald-400 p-5'>
+     { children }
+        </div>
+   
     </div>
     </div>
   )
