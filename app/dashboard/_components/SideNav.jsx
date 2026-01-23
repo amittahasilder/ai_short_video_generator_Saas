@@ -28,7 +28,7 @@ const SideNav = () => {
         }
     ]
   return (
-    <div className='bg-emerald-100 h-full w-64 h-screen shadow-orange-400'>
+    <div className='bg-emerald-300 h-full w-64 h-screen shadow-orange-400'>
       <div>
         {MenuOption.map((item,index)=> (
           <div>
