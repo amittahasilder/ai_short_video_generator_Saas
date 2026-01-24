@@ -10,7 +10,7 @@ export default function Home() {
     
   <h2>Subscribr to Tubeguruji</h2>
 
-  <Button variant="destructive">Subscribe</Button>
+  <Button variant="destructive">Subscribe this </Button>
  
 
  <UserButton/>
