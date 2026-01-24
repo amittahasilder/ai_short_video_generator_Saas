@@ -50,7 +50,7 @@ export default function Home() {
 
       {/* Right Side */}
       <div className="flex items-center gap-3">
-        <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition">
+        <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-900 transition">
           Dashboard
         </button>
 
