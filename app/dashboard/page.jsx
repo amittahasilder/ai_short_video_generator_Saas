@@ -9,7 +9,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <div className="home flex justify-between items-center">
+      <div className="home flex justify-between items-center bg-orange-400">
         <h2>Dashboard</h2>
         <Button>Create New</Button>
       </div>
