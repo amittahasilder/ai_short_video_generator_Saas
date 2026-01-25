@@ -10,7 +10,7 @@ const DashboardLayout = ({ children }) => {
         </div>
     <div>
         <Header/>
-        <div className='md:ml-64  h-screen shadow-emerald-800 p-5'>
+        <div className='md:ml-64  h-screen shadow-emerald-100 p-5'>
      { children }
         </div>
    
