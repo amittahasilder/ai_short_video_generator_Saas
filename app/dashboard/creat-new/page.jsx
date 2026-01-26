@@ -3,7 +3,19 @@ import React from 'react'
 const CreateNew = () => {
   return (
     <div>
-      CreateNew
+      <h2 className='font-bold text-4xl text-primary text-center'>Create New</h2>
+      <div>
+        {/* Seleted Topic */}
+
+
+
+        {/* Selected Style  */}
+
+
+        {/* Duration */}
+
+        {/*  */}
+      </div>
     </div>
   )
 }
