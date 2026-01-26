@@ -11,7 +11,11 @@ const Dashboard = () => {
     <>
       <div className="home flex justify-between items-center bg-orange-300">
         <h2>Dashboard</h2>
-        <Button>Create New</Button>
+             <Link href={'/create-new'}>
+        
+        
+              <Button>Create New Short Video</Button>
+              </Link>
       </div>
 
       {/* Empty state */}
