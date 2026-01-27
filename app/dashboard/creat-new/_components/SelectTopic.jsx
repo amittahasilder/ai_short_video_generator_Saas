@@ -136,7 +136,7 @@ function SelectTopic() {
       <p className="text-gray-500">What is the topic of your video?</p>
 
       <Select>
-        <SelectTrigger className="w-[180px]">
+        <SelectTrigger className="w-[170px]">
           <SelectValue placeholder="Select theme" />
         </SelectTrigger>
 
