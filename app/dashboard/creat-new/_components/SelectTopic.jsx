@@ -119,6 +119,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import { useState } from "react"
 
 function SelectTopic() {
   const options = [
@@ -129,14 +130,14 @@ function SelectTopic() {
     "Tech Explained",
     "History Facts",
   ]
-
+ const  [selectedOption,setSelectedOption]=useState();
   return (
     <div>
       <h2 className="font-bold text-2xl text-primary">Content</h2>
       <p className="text-gray-500">What is the topic of your video?</p>
 
-      <Select>
-        <SelectTrigger className="w-[170px]">
+      <Select onValueChange={(value)=>setSelectedOption(value)}>
+        <SelectTrigger className="w-full mt-2 p-6 text-lg">
           <SelectValue placeholder="Select theme" />
         </SelectTrigger>
 
@@ -148,6 +149,9 @@ function SelectTopic() {
           ))}
         </SelectContent>
       </Select>
+      {selectedOption== 'Custom Prompt'&&
+      <Textarea />
+     }
     </div>
   )
 }
